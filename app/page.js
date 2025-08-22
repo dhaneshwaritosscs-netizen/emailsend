@@ -195,7 +195,23 @@ export default function Home() {
                 </code>
                 <p className="text-sm text-gray-600 mt-1">Send an email with the required parameters</p>
               </div>
+              <div>
+                <code className="bg-gray-100 px-2 py-1 rounded text-sm">
+                  POST /api/email/custom
+                </code>
+                <p className="text-sm text-gray-600 mt-1">Send email with custom SMTP credentials</p>
+              </div>
             </div>
+          </div>
+          
+          {/* Navigation to Custom Email API */}
+          <div className="mt-6">
+            <a 
+              href="/custom" 
+              className="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+            >
+              Try Custom Email API →
+            </a>
           </div>
         </div>
       </div>
